@@ -1,5 +1,7 @@
 [core]
     analytics = false
-    remote = remote_storage
+    remote = storage
 ['remote "remote_storage"']
     url = ../../dvc_remote
+['remote "storage"']
+    url = https://dagshub.com/Anomalisaa/Template_MLOps_accidents.dvc
